@@ -28,7 +28,6 @@ const Login = () => {
 
     // Redirect when logged in
     if (isSuccess || user) {
-      console.log("success");
       navigate("/");
     }
 
